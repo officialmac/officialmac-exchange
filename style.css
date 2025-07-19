@@ -1,0 +1,103 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: gold;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+}
+
+.hero span {
+  color: gold;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn.gold {
+  background: gold;
+  color: black;
+}
+
+.btn.outline {
+  border: 2px solid gold;
+  color: gold;
+  background: none;
+}
+
+.features {
+  padding: 30px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.light-theme {
+  background: white;
+  color: black;
+}
+
+.dark-theme {
+  background: black;
+  color: white;
+}
+
+.theme-toggle {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background: gold;
+  color: black;
+  cursor: pointer;
+}
